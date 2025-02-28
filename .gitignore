@@ -161,4 +161,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-src/cktp/japanese-v2.0-45000.ckpt
+src/ckpt/**
+!src/ckpt/**/
+!src/ckpt/**/.gitkeep
